@@ -30,7 +30,7 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -657,11 +657,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2.6162" y1="15.6972" x2="3.8608" y2="15.6972" width="0.7112" layer="16"/>
 <wire x1="2.5908" y1="15.6718" x2="2.6162" y2="15.6972" width="0.7112" layer="16"/>
 <wire x1="5.1308" y1="14.4272" x2="3.8608" y2="15.6972" width="0.7112" layer="16"/>
-<via x="6.35" y="5.207" extent="1-16" drill="0.3302"/>
+<via x="6.4008" y="5.3086" extent="1-16" drill="0.3302"/>
 <wire x1="6.35" y1="2.3366" x2="6.3246" y2="2.3112" width="0.7112" layer="1"/>
-<wire x1="6.35" y1="5.207" x2="6.35" y2="2.3366" width="0.7112" layer="1"/>
-<wire x1="5.1308" y1="14.4272" x2="5.1308" y2="6.4262" width="0.7112" layer="16"/>
-<wire x1="5.1308" y1="6.4262" x2="6.35" y2="5.207" width="0.7112" layer="16"/>
+<wire x1="6.4008" y1="5.3086" x2="6.4008" y2="2.3874" width="0.7112" layer="1"/>
+<wire x1="6.4008" y1="2.3874" x2="6.35" y2="2.3366" width="0.4064" layer="1"/>
+<wire x1="5.1308" y1="14.4272" x2="5.1308" y2="6.5786" width="0.7112" layer="16"/>
+<wire x1="5.1308" y1="6.5786" x2="6.4008" y2="5.3086" width="0.7112" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="JP1" pad="6"/>
@@ -689,8 +690,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="16.5608" y1="15.6718" x2="15.3162" y2="14.4272" width="0.7112" layer="1"/>
 <wire x1="15.3162" y1="14.4272" x2="12.7508" y2="14.4272" width="0.7112" layer="1"/>
 <wire x1="12.7508" y1="14.4272" x2="11.4808" y2="13.1572" width="0.7112" layer="1"/>
-<via x="7.62" y="8.3312" extent="1-16" drill="0.6"/>
-<via x="25.4" y="8.3312" extent="1-16" drill="0.6"/>
+<via x="7.6708" y="8.2412" extent="1-16" drill="0.6"/>
+<via x="25.4508" y="8.2412" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="GPIO14_TXD">
 <contactref element="JP1" pad="8"/>
