@@ -32,5 +32,5 @@ do
 	echo "$i" > /sys/class/gpio/unexport
 done
 
-# newline
+# fin
 echo "... DONE!"
