@@ -1,5 +1,7 @@
 # rpi-ledarray-eagle
 
+![RPi LED Array](https://raw.github.com/prizepony/rpi-ledarray-eagle/master/img/rpi_ledarray_module.jpg)
+
 ## Description
 
 <p>The RPi LED array is a printed circuit board that mates directly with the GPIO (general purpose input/output) headers of a Raspberry Pi computer. This module adds a 10 LED array that can be controlled by software however you'd like. The Raspberry Pi GPIO can be accessed and controlled by many different languages, and code examples can be found at: http://elinux.org/Rpi_Low-level_peripherals#GPIO_Code_examples</p>
@@ -42,3 +44,7 @@ In the "code" folder is a Bash script for testing the LED array PCB. In a termin
 	sudo ./testLEDarray.sh
 
 While the script is running, the LEDs on the LED array PCB should illuminate one by one in sequential order until all LEDs are illuminated. All LEDs should then turn off.
+
+## Images
+
+![RPi LED Array inside](https://raw.github.com/prizepony/rpi-ledarray-eagle/master/img/rpi_ledarray_inside.jpg)
