@@ -14,11 +14,17 @@ REV=2
 
 PINS=(4 17 27 22 18 23 24 25 8 7)
 
+# initialize all LEDs
+for i in "${PINS[@]}"
+do
+	echo "$i" > /sys/class/gpio/export
+        echo "in" > /sys/class/gpio/gpio$i/direction
+done
+
 # turn on all LEDs in order
 for i in "${PINS[@]}"
 do
 	# toggle LED
-	echo "$i" > /sys/class/gpio/export
 	echo "out" > /sys/class/gpio/gpio$i/direction
 	echo "0" > /sys/class/gpio/gpio$i/value
 	echo -n "#"

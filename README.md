@@ -48,3 +48,9 @@ While the script is running, the LEDs on the LED array PCB should illuminate one
 ## Images
 
 ![RPi LED Array inside](https://raw.github.com/prizepony/rpi-ledarray-eagle/master/img/rpi_ledarray_inside.jpg)
+
+## Additional Scripts
+
+In the "code" folder exists a variety of scrips that make use of the Raspberry Pi LED array:
+
+showDiskUsage.sh - Displays the Raspberry Pi's disk usage
