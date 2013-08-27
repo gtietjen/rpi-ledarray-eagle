@@ -53,4 +53,4 @@ While the script is running, the LEDs on the LED array PCB should illuminate one
 
 In the "code" folder exists a variety of scrips that make use of the Raspberry Pi LED array:
 
-showDiskUsage.sh - Displays the Raspberry Pi's disk usage
+<i>showDiskUsage.sh</i> - Displays the Raspberry Pi's disk usage
